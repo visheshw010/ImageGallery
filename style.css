@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.small-img img{
+    margin: 0 10px 10px ;
+    height: 90px;
+    display: block;
+    cursor: pointer;
+    opacity: 0.6;
+
+}
+.small-img img:hover{
+    opacity: 1;
+}
+.small-img{
+    float: left;
+}
+.product{
+    top: 50%;
+    left: 30%;
+    position:absolute;
+    transform: translate(-50% , -50%);
+}
+.img-container img{
+    height: 460px;
+}
+.img-container{
+    float: right;
+}
